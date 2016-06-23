@@ -2,6 +2,7 @@
 // @name        天使动漫一键评分
 // @namespace   https://greasyfork.org/users/4514
 // @author      喵拉布丁
+// @homepage    https://github.com/miaolapd/TsdmOneKeyRating
 // @description 在天使动漫论坛版块页面里，为所选的帖子进行一键评分（可自行修改默认评分设置）
 // @include     http://www.tsdm.net/forum.php?mod=forumdisplay*
 // @require     https://code.jquery.com/jquery-3.0.0.min.js
