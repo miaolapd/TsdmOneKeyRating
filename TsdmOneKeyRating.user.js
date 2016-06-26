@@ -6,7 +6,7 @@
 // @description 在天使动漫论坛版块页面里，为所选的帖子进行一键评分（可自行修改默认评分设置）
 // @include     http://www.tsdm.net/forum.php?mod=forumdisplay*
 // @require     https://code.jquery.com/jquery-3.0.0.min.js
-// @version     1.1
+// @version     1.2
 // @grant       none
 // @run-at      document-end
 // @license     MIT
@@ -575,8 +575,8 @@ jQuery.noConflict();
                 $dialog.find(key).val(value)
                     .end().find('#highlight_color_ctrl').css('background-color', highlightColorOptions[value]);
             }
-            else if (value === true) {
-                $dialog.find(key).click();
+            else if (typeof value === 'boolean') {
+                if (value) $dialog.find(key).click();
             }
             else {
                 $dialog.find(key).val(value);
