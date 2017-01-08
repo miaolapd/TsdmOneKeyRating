@@ -5,8 +5,9 @@
 // @homepage    https://github.com/miaolapd/TsdmOneKeyRating
 // @description 在天使动漫论坛版块页面里，为所选的帖子进行一键评分（可自行修改默认评分设置）
 // @include     http://www.tsdm.net/forum.php?mod=forumdisplay*
-// @require     https://code.jquery.com/jquery-3.0.0.min.js
-// @version     1.2
+// @include     http://www.tsdm.me/forum.php?mod=forumdisplay*
+// @require     https://code.jquery.com/jquery-3.1.1.min.js
+// @version     1.3
 // @grant       none
 // @run-at      document-end
 // @license     MIT
